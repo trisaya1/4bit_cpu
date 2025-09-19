@@ -143,6 +143,6 @@ Expected final state: `R0 = 5`, `R1 = 2`, `RAM[3] = 5`, PC halted at 4
 
 ## Goals achieved
 
-- Practiced solid digital design fundamentals through a complete, verifiabvle CPU.
+- Practiced solid digital design fundamentals through a complete, verifiable CPU.
 - Demonstrated Verilog, simulation, and verification skills for hardware internships.
 - Built a clean, documented project that maps directly to micro-architecture and RTL work at companies like Arm and AMD.
