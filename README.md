@@ -113,12 +113,16 @@ Expected final state: `R0 = 5`, `R1 = 2`, `RAM[3] = 5`, PC halted at 4
 - **Editor**: VS Code
 - **Version Control**: Git & GitHub
 
+---
+
 ## How to Run in Vivado
 
 1. **Create Project**: RTL Project (don't specify sources at first).
 2. **Add Sources**: add `/src` files as **Design Sources** and `/sim` files as **Simulation Sources**.
 3. **Run Unit Tests**: simulate **tb.v** files to verify each block.
 4. **Run Top-Level**: set **cpu.v** and **cpu_tb.v** as top and **Run Behavioural Simulation**. Watch console for a PASS message: `PASS: Program result OK (RAM[3] = 5)`
+
+---
 
 ## What a reviewer/recruiter will see
 
@@ -127,11 +131,15 @@ Expected final state: `R0 = 5`, `R1 = 2`, `RAM[3] = 5`, PC halted at 4
 - Self-checking testbench at the top level.
 - Debug ports that make the design transparent in waveformns - great for code reviews 
 
+---
+
 ## Next Steps / Extensions
 
 - Expand ISA including more ALU operations
 - Move to **SystemVerilog** + simple **UVM** testbench for scalable verification that's also more industry relevant.
 - Explore multi-cycle control or a tiny 2-stage pipeline.
+
+---
 
 ## Goals achieved
 
